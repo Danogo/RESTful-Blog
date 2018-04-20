@@ -1,5 +1,18 @@
 .container.main {
-  padding-top: 6em;
+  padding-top: 5em;
+}
+
+.ui.header:first-child {
+  margin: .3em 0 1em;
+}
+
+.ui.large.header-show {
+  margin-top: .2em;
+  margin-bottom: 1em;
+}
+
+.ui.horizontal.divider-show {
+  margin-bottom: 1.2em;
 }
 
 i.icon, .ui.divider>.icon {
@@ -10,8 +23,12 @@ i.plus {
   margin: 0;
 }
 
+i.icon.chevron.right:before {
+  font-size: 16px;
+}
+
 .column {
-  margin-top: 2em;
+  margin-top: 2.5em;
   padding-left: 1rem;
 }
 

@@ -1,9 +1,12 @@
 <% include partials/header %>
 <div class="ui text container raised segment">
-  <h4 class="ui large horizontal divider header"><%= blog.title %></h4>
+  <div class="meta">
+    <span><%= blog.date.toDateString() %></span>
+  </div>
+  <h4 class="ui large horizontal divider header header-show"><%= blog.title %></h4>
   <img class="ui medium large centered image" src="<%= blog.imgURL %>" alt="">
   <div class="column">
-    <div class="ui horizontal divider">
+    <div class="ui horizontal divider divider-show">
       <i class="book icon"></i>
     </div>
     <p><%= blog.body %></p>

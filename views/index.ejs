@@ -8,7 +8,7 @@
         <img src="<%= blog.imgURL %>" alt="blog image">
       </div>
       <div class="middle aligned content">
-        <h2 class="header"><%= blog.title %></h2>
+        <h2 class="ui medium header"><%= blog.title %></h2>
         <div class="meta">
           <span><%= blog.date.toDateString() %></span>
         </div>
@@ -16,7 +16,7 @@
           <p><%= blog.body.substring(0, 100) %>...</p>
         </div>
         <div class="extra">
-          <a class="ui right floated violet basic button" href="/blogs/<%= blog._id %>">More info</a>
+          <a class="ui right floated violet basic button" href="/blogs/<%= blog._id %>">Read more <i class="chevron right icon"></i></a>
         </div>
       </div>
     </div>
