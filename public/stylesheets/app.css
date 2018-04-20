@@ -1,0 +1,20 @@
+.container.main {
+  padding-top: 6em;
+}
+
+i.icon, .ui.divider>.icon {
+  font-size: 1.8em;
+}
+
+i.plus {
+  margin: 0;
+}
+
+.column {
+  margin-top: 2em;
+  padding-left: 1rem;
+}
+
+.post-delete {
+  display: inline-block;
+}

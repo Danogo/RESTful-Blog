@@ -1,0 +1,17 @@
+{
+  "name": "restfulblog",
+  "version": "1.0.0",
+  "description": "Simple blog which follows REST pattern\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Cful\u001b[3~\u001b[3~\u001b[3~ pattern",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Ogonowski",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.15"
+  }
+}
