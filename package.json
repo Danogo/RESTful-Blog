@@ -1,10 +1,11 @@
 {
   "name": "restfulblog",
   "version": "1.0.0",
-  "description": "Simple blog which follows REST pattern\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Cful\u001b[3~\u001b[3~\u001b[3~ pattern",
+  "description": "Simple blog which follows REST pattern",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Daniel Ogonowski",
   "license": "MIT",
